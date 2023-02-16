@@ -1,7 +1,7 @@
 *{
     padding: 0px;
     margin: 0px;
-}
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
 .border{
     border: 1px solid black;
     box-sizing: border-box;
@@ -13,6 +13,7 @@ nav{
 }
 header{
     min-height: 180px;
+    
 }
 main{
     
@@ -28,6 +29,7 @@ footer{
     gap: 5px;
 }
 #logo{
+    box-sizing: border-box;
     width: 30%;
     padding: 5px;
 }
@@ -38,6 +40,7 @@ footer{
 .header-blocks{
     min-height: 43px;
     padding-left: 20px;
+    margin-top: 10px;
     
 }
 .most-popular{
@@ -57,44 +60,119 @@ footer{
     flex-direction: column;
     
 }
+p{
+    color: #434848;
+    opacity:60%;
+}
 .all{
     display: flex;
     width: 40%;
     height: 65px;
     float: right;
-    padding: 5px;
+    padding: 0px 5px 5px 5px;
+}
+.words{
+    
+    margin-left: 19px;
+    background-image: 
+    url("./images/info.png");
+    box-sizing: border-box;
+    background-repeat:no-repeat ;
+    background-position:px;
+    background-size:20px;
+   
+}
+.words p{
+    margin-left: 10px;
+}
+#words{
+    margin-left: 10px;
+    color: #434848;
+    opacity:60%;
 }
 .acco{
-   
-    height: 55px;
+    border-style: hidden;
+    border-top:3px solid blue;
+    font-weight: bolder;
+    color: blue;
+    height: 100%;
     width: 50%;
     text-align: center;
     padding: 20px;
+    margin:  0px auto;
    
 }
 .activities{
-    height: 55px;
+    height: 100%;
     width: 50%;
     text-align: center;
     padding: 20px;
+    margin:  0px auto;
 }
 .logo{
+    box-sizing: border-box;
+    padding-top: 15px;
+    padding-left: 15px;
+    color: blue;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
     height: 60px;
+    font-weight: bolder;
+    font-size: 30px;
 }
 .location{
     height: 40px;
     width: 30%;
+    display: flex;
+    padding: 5px 5px 5px 0px;
 }
 .filters{
+    box-sizing: border-box;
     min-height: 43px;
-   width: 60%;
+    width: 60%;
    display: flex;
-   gap: 5px;
+   
 }
 .cost{
-    width:150px;
-    
+    margin-left:9px ;
+   text-align: center;
+   min-width:20%;
+   border-radius: 20px;
+   box-sizing: border-box;
+   background-repeat:no-repeat ;
+   background-position:-5px;
+   background-size:50px;
+   box-shadow: 5px 5px 10px #aaaaaa;
 }
+div .short{
+    margin: 10px ;
+    margin-left: 30px;
+}
+div .long{
+    margin: 10px ;
+    margin-left: 45px;
+}
+#low{
+    margin: 10px;
+    margin-left: 10px !important;
+}
+.cost h4{
+    margin: 10px;
+    margin-left: 22.5%;
+}
+.cost1{
+    background-image: url("./images/money1.png");
+}
+.cost2{
+    background-image: url("./images/love2.png");
+}
+.cost3{
+    background-image: url("./images/fri.png");
+}
+.cost4{
+    background-image: url("./images/pets.png");
+}
+
 .main{
     box-sizing: border-box;
     height: 80%;
@@ -110,7 +188,7 @@ footer{
 .main-1{
     border-radius: 20px;
     box-sizing: border-box;
-    height: 90%;
+    height: 80%;
     line-height: 20px;
     padding: 5px 10px 10px 10px;
 }
@@ -119,9 +197,10 @@ aside{
     
 }
 .head-foot1{
-    
+    margin-top: 20px;
+    box-sizing: border-box;
     height: 50px;
-    padding: 10px;
+    padding: 30px 10px 0px 25px;
     
 }
 .main-2{
@@ -283,7 +362,7 @@ aside{
 .star1{
   box-sizing: border-box;
     background-repeat:no-repeat ;
-    background-position:3px 200px;
+    background-position:3px 210px;
     background-size:110px;
 
 }
@@ -329,4 +408,43 @@ aside{
 }
 .div5{
     box-shadow: 5px 5px 10px #aaaaaa;
+}
+.locate{
+    box-sizing: border-box;
+   border-radius: 10px;
+   width: 11%;
+   border-top-right-radius: 0px;
+   border-bottom-right-radius: 0px;
+   background-color: #eef0f0;   
+}
+header img{
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 10px;  
+}
+header input{
+    box-sizing: border-box;
+    height: 40px;
+    border: 0px;
+    padding: 2px 2px 2px 5px;
+    margin-left: 3px;
+}
+header button{
+    border: none;
+    font-weight:bolder;
+    font-size: 15px;
+    color: white;
+    background-color: blue;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 19%;
+    border-top-left-radius: 0px;
+   border-bottom-left-radius: 0px;
+}
+.filt{
+    margin: 10px 5px 5px 0px;
+}
+.filt-0{
+    box-sizing: border-box;
+    width: 10%;
 }
