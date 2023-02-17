@@ -91,8 +91,7 @@ p{
     opacity:60%;
 }
 .acco{
-    border-style: hidden;
-    border-top:3px solid blue;
+    
     font-weight: bolder;
     color: blue;
     height: 100%;
@@ -102,7 +101,15 @@ p{
     margin:  0px auto;
    
 }
+#acco{
+    color: blue;
+}
+.act{
+    border-style: hidden;
+    border-top:3px solid blue;
+}
 .activities{
+    
     height: 100%;
     width: 50%;
     text-align: center;
@@ -431,7 +438,7 @@ header input{
     width: 200px;
 }
 header button{
-    border: none;
+    
     font-weight:bolder;
     font-size: 15px;
     color: white;
@@ -448,4 +455,9 @@ header button{
 .filt-0{
     box-sizing: border-box;
     width: 10%;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
 }
